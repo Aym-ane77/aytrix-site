@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Aytrix | Premium website creation agency",
+    "description": "Aytrix builds premium websites for businesses, stores and creators with fast delivery, high-end design and full support."
+  },
+  "nav": {
+    "services": "Services",
+    "sites": "Sites",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "Premium digital agency",
+    "title": "Your website, delivered in 48h",
+    "subtitle": "High-end, fast, multilingual experiences designed to turn visitors into customers.",
+    "primaryCta": "See our sites",
+    "secondaryCta": "Chat on WhatsApp",
+    "trust1": "Premium design",
+    "trust2": "SEO-ready",
+    "trust3": "Priority support"
+  },
+  "services": {
+    "title": "An agency built to sell",
+    "subtitle": "Aytrix combines branding, UX, content and rapid launch execution to deliver websites that build trust from the first scroll.",
+    "items": {
+      "strategy": {
+        "title": "Clear positioning",
+        "description": "Messaging, sections and calls to action structured for conversions."
+      },
+      "delivery": {
+        "title": "48-hour delivery",
+        "description": "A disciplined process that moves fast without sacrificing quality."
+      },
+      "growth": {
+        "title": "Ready for growth",
+        "description": "SEO, responsive design and scalable structure included from day one."
+      }
+    }
+  },
+  "showcase": {
+    "title": "10 website types ready to customize",
+    "subtitle": "Explore real interactive demos before placing your order.",
+    "startingFrom": "Starting from {price} MAD",
+    "seeDemo": "See demo",
+    "included": "Included",
+    "modalTitle": "Interactive demo",
+    "close": "Close",
+    "mobile": "Mobile",
+    "desktop": "Desktop",
+    "openPage": "Open dedicated page",
+    "livePreview": "Live preview",
+    "browseDemo": "Browse demo",
+    "cta": "Order this website type"
+  },
+  "pricing": {
+    "title": "Transparent pricing, premium execution",
+    "subtitle": "Pick a website type, then compare the plans based on your goals.",
+    "monthly": "Monthly",
+    "oneTime": "One-time payment",
+    "mostPopular": "Most popular",
+    "basic": "Basic",
+    "pro": "Pro",
+    "premium": "Premium",
+    "monthlySuffix": "/month",
+    "oneTimeSuffix": "MAD",
+    "features": {
+      "basic1": "Custom premium design",
+      "basic2": "Optimized mobile version",
+      "basic3": "Contact form",
+      "pro1": "Everything in Basic",
+      "pro2": "Technical SEO + content",
+      "pro3": "Extra pages and analytics",
+      "premium1": "Everything in Pro",
+      "premium2": "Ongoing maintenance",
+      "premium3": "Priority support and updates"
+    }
+  },
+  "footer": {
+    "description": "Premium websites for restaurants, stores, agencies and ambitious brands.",
+    "rights": "© 2025 Aytrix. All rights reserved.",
+    "whatsapp": "WhatsApp",
+    "phone": "+212 716 271 733"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "contact": "Contact",
+    "bookNow": "Book now",
+    "addToCart": "Add",
+    "viewDetails": "View details",
+    "send": "Send",
+    "confirmed": "Confirmed",
+    "selected": "Selected",
+    "schedule": "Schedule",
+    "services": "Services",
+    "team": "Team",
+    "offers": "Offers"
+  },
+  "demo": {
+    "restaurant": {
+      "tabs": {
+        "menu": "Menu",
+        "reservation": "Reservation",
+        "reviews": "Reviews"
+      },
+      "categories": {
+        "starters": "Starters",
+        "mains": "Mains",
+        "desserts": "Desserts"
+      }
+    },
+    "ecommerce": {
+      "tabs": {
+        "shop": "Store",
+        "cart": "Cart",
+        "collections": "Collections"
+      }
+    },
+    "portfolio": {
+      "tabs": {
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact"
+      }
+    },
+    "clinic": {
+      "tabs": {
+        "appointments": "Appointments",
+        "departments": "Departments",
+        "team": "Doctors"
+      }
+    },
+    "realestate": {
+      "tabs": {
+        "listings": "Listings",
+        "filters": "Filters",
+        "visit": "Visit"
+      }
+    },
+    "gym": {
+      "tabs": {
+        "plans": "Plans",
+        "classes": "Classes",
+        "coaches": "Coaches"
+      }
+    },
+    "hotel": {
+      "tabs": {
+        "rooms": "Rooms",
+        "amenities": "Amenities",
+        "booking": "Booking"
+      }
+    },
+    "agency": {
+      "tabs": {
+        "services": "Services",
+        "cases": "Case studies",
+        "brief": "Brief"
+      }
+    },
+    "school": {
+      "tabs": {
+        "programs": "Programs",
+        "calendar": "Calendar",
+        "apply": "Apply"
+      }
+    },
+    "beauty": {
+      "tabs": {
+        "services": "Treatments",
+        "gallery": "Before/After",
+        "booking": "Book"
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Aytrix | Agence premium de création de sites web",
+    "description": "Aytrix crée des sites web premium pour les entreprises, commerces et créateurs avec livraison rapide, design haut de gamme et accompagnement complet."
+  },
+  "nav": {
+    "services": "Services",
+    "sites": "Sites",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "menu": "Menu",
+    "language": "Langue"
+  },
+  "hero": {
+    "eyebrow": "Agence digitale premium",
+    "title": "Votre site web, livré en 48h",
+    "subtitle": "Des expériences haut de gamme, rapides, multilingues et pensées pour convertir vos visiteurs en clients.",
+    "primaryCta": "Voir nos sites",
+    "secondaryCta": "Parler sur WhatsApp",
+    "trust1": "Design premium",
+    "trust2": "SEO prêt",
+    "trust3": "Support prioritaire"
+  },
+  "services": {
+    "title": "Une agence pensée pour vendre",
+    "subtitle": "Aytrix combine branding, UX, contenus et mise en ligne rapide pour lancer des sites qui inspirent confiance dès la première visite.",
+    "items": {
+      "strategy": {
+        "title": "Positionnement clair",
+        "description": "Messages, sections et appels à l'action conçus pour convertir."
+      },
+      "delivery": {
+        "title": "Livraison en 48h",
+        "description": "Un process cadré pour aller vite sans sacrifier la qualité."
+      },
+      "growth": {
+        "title": "Prêt pour la croissance",
+        "description": "SEO, responsive et structure évolutive inclus dès le départ."
+      }
+    }
+  },
+  "showcase": {
+    "title": "10 types de sites prêts à personnaliser",
+    "subtitle": "Explorez des démonstrations interactives réelles avant de commander.",
+    "startingFrom": "À partir de {price} MAD",
+    "seeDemo": "Voir la démo",
+    "included": "Inclus",
+    "modalTitle": "Démo interactive",
+    "close": "Fermer",
+    "mobile": "Mobile",
+    "desktop": "Desktop",
+    "openPage": "Ouvrir la page dédiée",
+    "livePreview": "Aperçu interactif",
+    "browseDemo": "Parcourir la démo",
+    "cta": "Commander ce type de site"
+  },
+  "pricing": {
+    "title": "Tarifs transparents, exécution premium",
+    "subtitle": "Choisissez un type de site, puis comparez les plans selon vos objectifs.",
+    "monthly": "Mensuel",
+    "oneTime": "Paiement unique",
+    "mostPopular": "Le plus demandé",
+    "basic": "Basique",
+    "pro": "Pro",
+    "premium": "Premium",
+    "monthlySuffix": "/mois",
+    "oneTimeSuffix": "MAD",
+    "features": {
+      "basic1": "Design premium sur mesure",
+      "basic2": "Version mobile optimisée",
+      "basic3": "Formulaire de contact",
+      "pro1": "Toutes les fonctionnalités Basique",
+      "pro2": "SEO technique + contenu",
+      "pro3": "Pages supplémentaires et analytics",
+      "premium1": "Toutes les fonctionnalités Pro",
+      "premium2": "Maintenance continue",
+      "premium3": "Support prioritaire et évolutions"
+    }
+  },
+  "footer": {
+    "description": "Sites premium pour restaurants, commerces, agences et marques ambitieuses.",
+    "rights": "© 2025 Aytrix. Tous droits réservés.",
+    "whatsapp": "WhatsApp",
+    "phone": "+212 716 271 733"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "contact": "Contact",
+    "bookNow": "Réserver",
+    "addToCart": "Ajouter",
+    "viewDetails": "Voir les détails",
+    "send": "Envoyer",
+    "confirmed": "Confirmé",
+    "selected": "Sélectionné",
+    "schedule": "Programme",
+    "services": "Services",
+    "team": "Équipe",
+    "offers": "Offres"
+  },
+  "demo": {
+    "restaurant": {
+      "tabs": {
+        "menu": "Menu",
+        "reservation": "Réservation",
+        "reviews": "Avis"
+      },
+      "categories": {
+        "starters": "Entrées",
+        "mains": "Plats",
+        "desserts": "Desserts"
+      }
+    },
+    "ecommerce": {
+      "tabs": {
+        "shop": "Boutique",
+        "cart": "Panier",
+        "collections": "Collections"
+      }
+    },
+    "portfolio": {
+      "tabs": {
+        "projects": "Projets",
+        "about": "À propos",
+        "contact": "Contact"
+      }
+    },
+    "clinic": {
+      "tabs": {
+        "appointments": "RDV",
+        "departments": "Services",
+        "team": "Médecins"
+      }
+    },
+    "realestate": {
+      "tabs": {
+        "listings": "Biens",
+        "filters": "Filtres",
+        "visit": "Visite"
+      }
+    },
+    "gym": {
+      "tabs": {
+        "plans": "Abonnements",
+        "classes": "Cours",
+        "coaches": "Coachs"
+      }
+    },
+    "hotel": {
+      "tabs": {
+        "rooms": "Chambres",
+        "amenities": "Services",
+        "booking": "Réserver"
+      }
+    },
+    "agency": {
+      "tabs": {
+        "services": "Offres",
+        "cases": "Réalisations",
+        "brief": "Brief"
+      }
+    },
+    "school": {
+      "tabs": {
+        "programs": "Programmes",
+        "calendar": "Calendrier",
+        "apply": "Inscription"
+      }
+    },
+    "beauty": {
+      "tabs": {
+        "services": "Soins",
+        "gallery": "Avant/Après",
+        "booking": "Réserver"
+      }
+    }
+  }
+}
