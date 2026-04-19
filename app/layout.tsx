@@ -10,7 +10,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Aytrix',
-  description: 'Premium website creation and sales agency platform.'
+  description: 'Premium website creation and sales agency platform.',
+  verification: {
+    google: 'kVpb8xSxvnM_ZWd2xxg8glxIvxPmw48aePPqJtWcPT0'
+  },
+  icons: {
+    icon: '/icon.svg'
+  }
 };
 
 export default function RootLayout({

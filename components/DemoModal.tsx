@@ -21,45 +21,34 @@ type Viewport = 'mobile' | 'desktop';
 
 function DemoShell({
   children,
-  locale,
   siteId,
+  t,
   viewport,
   setViewport
 }: {
   children: React.ReactNode;
-  locale: AppLocale;
   siteId: string;
+  t: ReturnType<typeof useTranslations>;
   viewport: Viewport;
   setViewport: (value: Viewport) => void;
 }) {
-  const t = useTranslations('showcase');
-
   return (
     <div className="space-y-4">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <div className="inline-flex rounded-full border border-white/10 bg-black/30 p-1">
-          {(['mobile', 'desktop'] as const).map((mode) => (
-            <button
-              key={mode}
-              type="button"
-              onClick={() => setViewport(mode)}
-              className={cn(
-                'inline-flex min-h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold',
-                viewport === mode ? 'bg-white text-slate-900' : 'text-slate-300 hover:text-white'
-              )}
-            >
-              {mode === 'mobile' ? <Smartphone className="h-4 w-4" /> : <Monitor className="h-4 w-4" />}
-              {t(mode)}
-            </button>
-          ))}
-        </div>
-
-        <Link
-          href={`/${locale}/sites/${siteId}`}
-          className="inline-flex min-h-11 items-center rounded-full border border-white/10 bg-white/5 px-4 text-sm font-medium text-slate-100 hover:border-cyan-400/40 hover:text-white"
-        >
-          {t('openPage')}
-        </Link>
+      <div className="inline-flex rounded-full border border-white/10 bg-black/30 p-1">
+        {(['mobile', 'desktop'] as const).map((mode) => (
+          <button
+            key={mode}
+            type="button"
+            onClick={() => setViewport(mode)}
+            className={cn(
+              'inline-flex min-h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold',
+              viewport === mode ? 'bg-white text-slate-900' : 'text-slate-300 hover:text-white'
+            )}
+          >
+            {mode === 'mobile' ? <Smartphone className="h-4 w-4" /> : <Monitor className="h-4 w-4" />}
+            {t(mode)}
+          </button>
+        ))}
       </div>
 
       <div
@@ -689,8 +678,8 @@ export default function DemoModal({
         </div>
 
         <DemoShell
-          locale={locale}
           siteId={site.id}
+          t={t}
           viewport={viewport}
           setViewport={setViewport}
         >

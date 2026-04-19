@@ -51,7 +51,7 @@ export const sites: Site[] = [
     icon: '🛍️',
     price: {basic: 3000, pro: 5000, premium: 8000},
     services: {
-      fr: ['Catalogue produits', 'Panier', 'Paiement sécurisé', 'Dashboard'],
+      fr: ['Catalogue produits', 'Panier', 'Paiement sécurisé', 'Tableau de bord'],
       en: ['Product catalog', 'Cart', 'Secure checkout', 'Dashboard']
     },
     color: 'from-purple-500 to-pink-500',
@@ -63,7 +63,7 @@ export const sites: Site[] = [
     icon: '🎨',
     price: {basic: 1200, pro: 2000, premium: 3500},
     services: {
-      fr: ['Galerie projets', 'CV en ligne', 'Contact form', 'Blog'],
+      fr: ['Galerie projets', 'CV en ligne', 'Formulaire de contact', 'Blog'],
       en: ['Project gallery', 'Online CV', 'Contact form', 'Blog']
     },
     color: 'from-blue-500 to-cyan-500',
@@ -87,7 +87,7 @@ export const sites: Site[] = [
     icon: '🏡',
     price: {basic: 2500, pro: 4000, premium: 7000},
     services: {
-      fr: ['Listings propriétés', 'Recherche filtrée', 'Visites virtuelles', 'CRM'],
+      fr: ['Annonces immobilières', 'Recherche filtrée', 'Visites virtuelles', 'CRM'],
       en: ['Property listings', 'Filtered search', 'Virtual tours', 'CRM']
     },
     color: 'from-yellow-500 to-orange-500',
@@ -147,7 +147,7 @@ export const sites: Site[] = [
     icon: '✨',
     price: {basic: 1500, pro: 2500, premium: 4000},
     services: {
-      fr: ['Services & tarifs', 'Réservation', 'Galerie before/after', 'Équipe'],
+      fr: ['Services & tarifs', 'Réservation', 'Galerie avant/après', 'Équipe'],
       en: ['Services & pricing', 'Booking', 'Before/after gallery', 'Team']
     },
     color: 'from-pink-500 to-rose-500',

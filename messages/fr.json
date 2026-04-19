@@ -51,7 +51,6 @@
     "desktop": "Desktop",
     "openPage": "Ouvrir la page dédiée",
     "livePreview": "Aperçu interactif",
-    "browseDemo": "Parcourir la démo",
     "cta": "Commander ce type de site"
   },
   "pricing": {
@@ -71,7 +70,7 @@
       "basic3": "Formulaire de contact",
       "pro1": "Toutes les fonctionnalités Basique",
       "pro2": "SEO technique + contenu",
-      "pro3": "Pages supplémentaires et analytics",
+      "pro3": "Pages supplémentaires et statistiques",
       "premium1": "Toutes les fonctionnalités Pro",
       "premium2": "Maintenance continue",
       "premium3": "Support prioritaire et évolutions"
@@ -79,7 +78,7 @@
   },
   "footer": {
     "description": "Sites premium pour restaurants, commerces, agences et marques ambitieuses.",
-    "rights": "© 2025 Aytrix. Tous droits réservés.",
+    "rights": "Aytrix. Tous droits réservés.",
     "whatsapp": "WhatsApp",
     "phone": "+212 716 271 733"
   },

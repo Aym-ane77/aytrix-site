@@ -58,15 +58,9 @@ export default function SiteCard({locale, site, index, onOpen}: SiteCardProps) {
         </div>
 
         <div className="mt-8 flex items-center justify-between">
-          <span className="text-sm font-medium text-slate-300">{t('browseDemo')}</span>
+          <span className="text-sm font-medium text-slate-300">{t('seeDemo')}</span>
           <span className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition-transform group-hover:translate-x-1">
             <ArrowUpRight className="h-5 w-5" />
-          </span>
-        </div>
-
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          <span className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 shadow-lg">
-            {t('seeDemo')}
           </span>
         </div>
       </div>

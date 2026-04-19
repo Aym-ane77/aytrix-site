@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="aytrixGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0b0b14" />
+  <path
+    d="M16 48 28.5 16h7L48 48h-7.2l-2.3-6.6H25.5L23.2 48H16Zm11.8-12.3h8.4L32 23.6l-4.2 12.1Z"
+    fill="url(#aytrixGradient)"
+  />
+</svg>

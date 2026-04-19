@@ -14,13 +14,14 @@ type SiteShowcaseProps = {
 export default function SiteShowcase({locale}: SiteShowcaseProps) {
   const t = useTranslations('showcase');
   const [selectedSite, setSelectedSite] = useState<Site | null>(null);
+  const eyebrow = locale === 'fr' ? 'Nos démonstrations' : 'Aytrix demos';
 
   return (
     <>
       <section id="sites" className="section-shell py-20 sm:py-24">
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.28em] text-violet-300">
-            Aytrix demos
+            {eyebrow}
           </p>
           <h2 className="section-title mt-3">{t('title')}</h2>
           <p className="section-subtitle mt-4">{t('subtitle')}</p>

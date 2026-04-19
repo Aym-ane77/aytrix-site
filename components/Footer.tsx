@@ -9,6 +9,7 @@ type FooterProps = {
 export default async function Footer({locale}: FooterProps) {
   const t = await getTranslations({locale, namespace: 'footer'});
   const nav = await getTranslations({locale, namespace: 'nav'});
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer id="contact" className="border-t border-white/10 bg-black/20 py-12">
@@ -54,7 +55,7 @@ export default async function Footer({locale}: FooterProps) {
       </div>
 
       <div className="section-shell mt-10 border-t border-white/10 pt-6 text-sm text-slate-500">
-        {t('rights')}
+        © {currentYear} {t('rights')}
       </div>
     </footer>
   );

@@ -17,6 +17,8 @@ export default function PricingSection({locale}: PricingSectionProps) {
   const t = useTranslations('pricing');
   const [billing, setBilling] = useState<'monthly' | 'oneTime'>('oneTime');
   const [selectedSiteId, setSelectedSiteId] = useState(sites[0].id);
+  const eyebrow = locale === 'fr' ? 'Nos tarifs' : 'Aytrix pricing';
+  const ctaLabel = locale === 'fr' ? 'Commander ce pack sur WhatsApp' : selectedSiteId;
 
   const selectedSite = useMemo(
     () => sites.find((site) => site.id === selectedSiteId) ?? sites[0],
@@ -32,7 +34,7 @@ export default function PricingSection({locale}: PricingSectionProps) {
   return (
     <section id="pricing" className="section-shell py-20 sm:py-24">
       <div className="max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-[0.28em] text-cyan-300">Aytrix pricing</p>
+        <p className="text-sm font-semibold uppercase tracking-[0.28em] text-cyan-300">{eyebrow}</p>
         <h2 className="section-title mt-3">{t('title')}</h2>
         <p className="section-subtitle mt-4">{t('subtitle')}</p>
       </div>
@@ -120,12 +122,25 @@ export default function PricingSection({locale}: PricingSectionProps) {
                 href="https://wa.me/212716271733?text=Bonjour%20Aytrix,%20je%20suis%20int%C3%A9ress%C3%A9%20par%20un%20site%20web"
                 target="_blank"
                 rel="noreferrer"
+                aria-label={
+                  locale === 'fr'
+                    ? `Commander ce pack sur WhatsApp pour ${selectedSite.name[locale]}`
+                    : selectedSite.name[locale]
+                }
+                data-site-type={selectedSite.id}
                 className={cn(
                   'mt-8 inline-flex min-h-[52px] w-full items-center justify-center rounded-full text-sm font-semibold',
                   isPopular ? 'bg-white text-slate-900' : 'border border-white/10 bg-white/5 text-white'
                 )}
               >
-                {selectedSite.name[locale]}
+                {locale === 'fr' ? (
+                  <>
+                    <span>{ctaLabel}</span>
+                    <span className="sr-only">{` pour ${selectedSite.name[locale]}`}</span>
+                  </>
+                ) : (
+                  selectedSite.name[locale]
+                )}
               </a>
             </div>
           );

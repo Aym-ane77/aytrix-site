@@ -26,6 +26,30 @@ export default function Hero({locale}: HeroProps) {
   const t = useTranslations('hero');
   const whatsappHref =
     'https://wa.me/212716271733?text=Bonjour%20Aytrix,%20je%20suis%20int%C3%A9ress%C3%A9%20par%20un%20site%20web';
+  const mockupCopy =
+    locale === 'fr'
+      ? {
+          studio: 'Notre studio',
+          launchReady: 'Sites prêts à lancer',
+          conversionDriven: 'Pages conçues pour convertir',
+          highImpact: 'Sections visuelles percutantes',
+          salesReady: 'Structure pensée pour vendre',
+          pricing: 'Tarifs qui convainquent',
+          recentLaunches: 'Lancements récents',
+          liveDemos: 'Démos en direct',
+          launchTypes: ['Restaurant', 'Boutique', 'Clinique']
+        }
+      : {
+          studio: 'Aytrix Studio',
+          launchReady: 'Launch-ready websites',
+          conversionDriven: 'Conversion-driven pages',
+          highImpact: 'High-impact hero blocks',
+          salesReady: 'Sales-ready structure',
+          pricing: 'Pricing that closes deals',
+          recentLaunches: 'Recent launches',
+          liveDemos: 'Live demos',
+          launchTypes: ['Restaurant', 'Store', 'Clinic']
+        };
 
   return (
     <section className="section-shell relative py-20 sm:py-24 lg:py-28">
@@ -119,8 +143,8 @@ export default function Hero({locale}: HeroProps) {
             <div className="rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 p-5">
               <div className="flex items-center justify-between rounded-3xl border border-white/10 bg-white/5 px-4 py-3">
                 <div>
-                  <p className="text-sm font-medium text-slate-300">Aytrix Studio</p>
-                  <p className="text-lg font-semibold text-white">Launch-ready websites</p>
+                  <p className="text-sm font-medium text-slate-300">{mockupCopy.studio}</p>
+                  <p className="text-lg font-semibold text-white">{mockupCopy.launchReady}</p>
                 </div>
                 <div className="rounded-2xl bg-aytrix-gradient px-4 py-2 text-sm font-semibold text-white">
                   48h
@@ -130,8 +154,8 @@ export default function Hero({locale}: HeroProps) {
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
                 <div className="rounded-3xl border border-white/10 bg-white/5 p-4">
                   <div className="mb-4 h-28 rounded-3xl bg-gradient-to-br from-violet-500/30 to-cyan-500/20" />
-                  <p className="text-sm text-slate-400">Conversion-driven pages</p>
-                  <p className="mt-1 text-xl font-semibold text-white">High-impact hero blocks</p>
+                  <p className="text-sm text-slate-400">{mockupCopy.conversionDriven}</p>
+                  <p className="mt-1 text-xl font-semibold text-white">{mockupCopy.highImpact}</p>
                 </div>
                 <div className="rounded-3xl border border-white/10 bg-white/5 p-4">
                   <div className="mb-4 flex h-28 items-end gap-2 rounded-3xl bg-slate-950/70 p-4">
@@ -139,18 +163,18 @@ export default function Hero({locale}: HeroProps) {
                     <div className="h-20 flex-1 rounded-t-2xl bg-violet-500/80" />
                     <div className="h-12 flex-1 rounded-t-2xl bg-white/30" />
                   </div>
-                  <p className="text-sm text-slate-400">Sales-ready structure</p>
-                  <p className="mt-1 text-xl font-semibold text-white">Pricing that closes deals</p>
+                  <p className="text-sm text-slate-400">{mockupCopy.salesReady}</p>
+                  <p className="mt-1 text-xl font-semibold text-white">{mockupCopy.pricing}</p>
                 </div>
               </div>
 
               <div className="mt-4 rounded-3xl border border-white/10 bg-white/5 p-4">
                 <div className="flex items-center justify-between">
-                  <p className="text-sm font-medium text-slate-300">Recent launches</p>
-                  <p className="text-xs uppercase tracking-[0.28em] text-cyan-300">Live demos</p>
+                  <p className="text-sm font-medium text-slate-300">{mockupCopy.recentLaunches}</p>
+                  <p className="text-xs uppercase tracking-[0.28em] text-cyan-300">{mockupCopy.liveDemos}</p>
                 </div>
                 <div className="mt-4 grid gap-3 sm:grid-cols-3">
-                  {['Restaurant', 'Store', 'Clinic'].map((item) => (
+                  {mockupCopy.launchTypes.map((item) => (
                     <div
                       key={item}
                       className="rounded-2xl border border-white/10 bg-slate-950/70 px-3 py-4 text-sm font-semibold text-white"
