@@ -2,6 +2,8 @@ import type {Metadata} from 'next';
 import {Inter} from 'next/font/google';
 import './globals.css';
 
+const siteUrl = 'https://aytrix-site.vercel.app';
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -9,8 +11,32 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: 'Aytrix',
-  description: 'Premium website creation and sales agency platform.',
+  description: 'Aytrix creates premium websites and landing pages for businesses in Morocco.',
+  applicationName: 'Aytrix',
+  alternates: {
+    canonical: siteUrl
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'Aytrix',
+    url: siteUrl
+  },
+  twitter: {
+    card: 'summary_large_image'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1
+    }
+  },
   verification: {
     google: 'kVpb8xSxvnM_ZWd2xxg8glxIvxPmw48aePPqJtWcPT0'
   },

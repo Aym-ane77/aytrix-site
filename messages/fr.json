@@ -1,7 +1,11 @@
 {
   "meta": {
     "title": "Aytrix | Agence premium de création de sites web",
-    "description": "Aytrix crée des sites web premium pour les entreprises, commerces et créateurs avec livraison rapide, design haut de gamme et accompagnement complet."
+    "description": "Aytrix crée des sites web premium pour les entreprises, commerces et créateurs avec livraison rapide, design haut de gamme et accompagnement complet.",
+    "home": {
+      "title": "Création site web à Tanger et au Maroc | Aytrix",
+      "description": "Aytrix accompagne les entreprises à Tanger et partout au Maroc pour la création de sites web, landing pages et sites vitrines premium pensés pour convertir."
+    }
   },
   "nav": {
     "services": "Services",
@@ -13,8 +17,8 @@
   },
   "hero": {
     "eyebrow": "Agence digitale premium",
-    "title": "Votre site web, livré en 48h",
-    "subtitle": "Des expériences haut de gamme, rapides, multilingues et pensées pour convertir vos visiteurs en clients.",
+    "title": "Création de sites web premium à Tanger et au Maroc",
+    "subtitle": "Aytrix conçoit des sites vitrines, sites business et landing pages rapides, multilingues et pensées pour transformer vos visiteurs en clients.",
     "primaryCta": "Voir nos sites",
     "secondaryCta": "Parler sur WhatsApp",
     "trust1": "Design premium",
@@ -23,25 +27,49 @@
   },
   "services": {
     "title": "Une agence pensée pour vendre",
-    "subtitle": "Aytrix combine branding, UX, contenus et mise en ligne rapide pour lancer des sites qui inspirent confiance dès la première visite.",
+    "subtitle": "Aytrix combine branding, UX, contenus et mise en ligne rapide pour aider les entreprises de Tanger et du Maroc à lancer un site crédible dès la première visite.",
     "items": {
       "strategy": {
         "title": "Positionnement clair",
-        "description": "Messages, sections et appels à l'action conçus pour convertir."
+        "description": "Messages, sections et appels à l'action conçus pour rendre votre offre compréhensible et convaincante."
       },
       "delivery": {
         "title": "Livraison en 48h",
-        "description": "Un process cadré pour aller vite sans sacrifier la qualité."
+        "description": "Un process cadré pour aller vite sans sacrifier la qualité ni la cohérence du contenu."
       },
       "growth": {
         "title": "Prêt pour la croissance",
-        "description": "SEO, responsive et structure évolutive inclus dès le départ."
+        "description": "SEO, responsive et structure évolutive inclus dès le départ pour viser une audience locale et nationale."
       }
+    }
+  },
+  "localSeo": {
+    "eyebrow": "Ciblage local",
+    "title": "Une agence web orientée résultats pour Tanger et le Maroc",
+    "subtitle": "Nous structurons chaque page pour que vos services soient clairs pour Google comme pour vos prospects, sans sur-optimisation ni promesses artificielles.",
+    "cards": {
+      "tangier": {
+        "title": "Création site web à Tanger",
+        "description": "Pour les entreprises qui veulent une présence professionnelle capable de générer des demandes locales à Tanger avec un message clair et une navigation simple."
+      },
+      "morocco": {
+        "title": "Agence web pour le marché marocain",
+        "description": "Sites vitrines, sites business et pages de vente pensés pour toucher des clients partout au Maroc avec une structure crédible et rapide à charger."
+      },
+      "landingPages": {
+        "title": "Landing pages orientées conversion",
+        "description": "Des pages dédiées pour campagnes publicitaires, lancement d'offre ou prise de contact, avec contenu hiérarchisé et appels à l'action visibles."
+      }
+    },
+    "links": {
+      "seeExamples": "Voir des exemples de sites",
+      "comparePricing": "Comparer les tarifs",
+      "viewAgencyPage": "Voir la page Agence & Entreprise"
     }
   },
   "showcase": {
     "title": "10 types de sites prêts à personnaliser",
-    "subtitle": "Explorez des démonstrations interactives réelles avant de commander.",
+    "subtitle": "Explorez des démonstrations interactives réelles avant de commander votre site web ou votre landing page au Maroc.",
     "startingFrom": "À partir de {price} MAD",
     "seeDemo": "Voir la démo",
     "included": "Inclus",
@@ -55,7 +83,7 @@
   },
   "pricing": {
     "title": "Tarifs transparents, exécution premium",
-    "subtitle": "Choisissez un type de site, puis comparez les plans selon vos objectifs.",
+    "subtitle": "Choisissez un type de site, puis comparez les plans selon vos objectifs, votre niveau d'accompagnement et votre marché au Maroc.",
     "monthly": "Mensuel",
     "oneTime": "Paiement unique",
     "mostPopular": "Le plus demandé",
@@ -77,10 +105,17 @@
     }
   },
   "footer": {
-    "description": "Sites premium pour restaurants, commerces, agences et marques ambitieuses.",
+    "description": "Sites premium pour restaurants, commerces, agences et marques ambitieuses à Tanger et partout au Maroc.",
     "rights": "Aytrix. Tous droits réservés.",
     "whatsapp": "WhatsApp",
     "phone": "+212 716 271 733"
+  },
+  "sitePage": {
+    "eyebrow": "Exemple de projet",
+    "comparePricing": "Voir les tarifs",
+    "browseExamples": "Voir d'autres exemples",
+    "includedTitle": "Fonctionnalités incluses dans ce type de site",
+    "includedDescription": "Cette structure peut être adaptée à votre activité, à votre zone de chalandise et à vos objectifs de génération de contacts au Maroc."
   },
   "common": {
     "whatsapp": "WhatsApp",

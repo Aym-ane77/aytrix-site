@@ -4,6 +4,8 @@ import {getMessages, getTranslations, unstable_setRequestLocale} from 'next-intl
 import {notFound} from 'next/navigation';
 import {routing, type AppLocale} from '@/i18n/routing';
 
+const siteUrl = 'https://aytrix-site.vercel.app';
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
 }
@@ -19,10 +21,33 @@ export async function generateMetadata({
   }
 
   const t = await getTranslations({locale, namespace: 'meta'});
+  const url = `${siteUrl}/${locale}`;
+  const localeName = locale === 'fr' ? 'fr_FR' : 'en_US';
 
   return {
     title: t('title'),
-    description: t('description')
+    description: t('description'),
+    alternates: {
+      languages: {
+        fr: `${siteUrl}/fr`,
+        en: `${siteUrl}/en`,
+        'x-default': `${siteUrl}/fr`
+      }
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      url,
+      locale: localeName
+    },
+    twitter: {
+      title: t('title'),
+      description: t('description')
+    },
+    robots: {
+      index: true,
+      follow: true
+    }
   };
 }
 

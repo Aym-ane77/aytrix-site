@@ -1,7 +1,11 @@
 {
   "meta": {
     "title": "Aytrix | Premium website creation agency",
-    "description": "Aytrix builds premium websites for businesses, stores and creators with fast delivery, high-end design and full support."
+    "description": "Aytrix builds premium websites for businesses, stores and creators with fast delivery, high-end design and full support.",
+    "home": {
+      "title": "Website creation in Tangier and Morocco | Aytrix",
+      "description": "Aytrix helps businesses in Tangier and across Morocco build premium websites, landing pages and business sites designed to convert."
+    }
   },
   "nav": {
     "services": "Services",
@@ -13,8 +17,8 @@
   },
   "hero": {
     "eyebrow": "Premium digital agency",
-    "title": "Your website, delivered in 48h",
-    "subtitle": "High-end, fast, multilingual experiences designed to turn visitors into customers.",
+    "title": "Premium website creation for Tangier and Morocco",
+    "subtitle": "Aytrix builds fast, multilingual websites and landing pages designed to help businesses turn traffic into qualified leads.",
     "primaryCta": "See our sites",
     "secondaryCta": "Chat on WhatsApp",
     "trust1": "Premium design",
@@ -23,25 +27,49 @@
   },
   "services": {
     "title": "An agency built to sell",
-    "subtitle": "Aytrix combines branding, UX, content and rapid launch execution to deliver websites that build trust from the first scroll.",
+    "subtitle": "Aytrix combines branding, UX, content and rapid launch execution to help businesses in Tangier and Morocco launch websites that build trust from the first scroll.",
     "items": {
       "strategy": {
         "title": "Clear positioning",
-        "description": "Messaging, sections and calls to action structured for conversions."
+        "description": "Messaging, sections and calls to action structured to make your offer easy to understand and easier to buy."
       },
       "delivery": {
         "title": "48-hour delivery",
-        "description": "A disciplined process that moves fast without sacrificing quality."
+        "description": "A disciplined process that moves fast without sacrificing quality or content clarity."
       },
       "growth": {
         "title": "Ready for growth",
-        "description": "SEO, responsive design and scalable structure included from day one."
+        "description": "SEO, responsive design and scalable structure included from day one for local and nationwide visibility."
       }
+    }
+  },
+  "localSeo": {
+    "eyebrow": "Local targeting",
+    "title": "A web agency built for Tangier and Morocco growth",
+    "subtitle": "Each page is structured so Google and your prospects can quickly understand what you offer, who you serve and what action to take next.",
+    "cards": {
+      "tangier": {
+        "title": "Website creation in Tangier",
+        "description": "For businesses that need a professional presence capable of generating local enquiries in Tangier through clear messaging and straightforward navigation."
+      },
+      "morocco": {
+        "title": "Web agency for Morocco",
+        "description": "Business websites, brochure sites and sales pages designed to reach customers across Morocco with a fast and credible structure."
+      },
+      "landingPages": {
+        "title": "Conversion-focused landing pages",
+        "description": "Dedicated pages for paid campaigns, offer launches or lead capture, with cleaner hierarchy and visible calls to action."
+      }
+    },
+    "links": {
+      "seeExamples": "See website examples",
+      "comparePricing": "Compare pricing",
+      "viewAgencyPage": "View the Agency & Business page"
     }
   },
   "showcase": {
     "title": "10 website types ready to customize",
-    "subtitle": "Explore real interactive demos before placing your order.",
+    "subtitle": "Explore real interactive demos before ordering your website or landing page for Morocco.",
     "startingFrom": "Starting from {price} MAD",
     "seeDemo": "See demo",
     "included": "Included",
@@ -56,7 +84,7 @@
   },
   "pricing": {
     "title": "Transparent pricing, premium execution",
-    "subtitle": "Pick a website type, then compare the plans based on your goals.",
+    "subtitle": "Pick a website type, then compare the plans based on your goals, support level and target market in Morocco.",
     "monthly": "Monthly",
     "oneTime": "One-time payment",
     "mostPopular": "Most popular",
@@ -78,10 +106,17 @@
     }
   },
   "footer": {
-    "description": "Premium websites for restaurants, stores, agencies and ambitious brands.",
+    "description": "Premium websites for restaurants, stores, agencies and ambitious brands in Tangier and across Morocco.",
     "rights": "Aytrix. All rights reserved.",
     "whatsapp": "WhatsApp",
     "phone": "+212 716 271 733"
+  },
+  "sitePage": {
+    "eyebrow": "Project example",
+    "comparePricing": "View pricing",
+    "browseExamples": "Browse more examples",
+    "includedTitle": "What can be included in this website type",
+    "includedDescription": "This structure can be adapted to your business, service area and lead-generation goals in Morocco."
   },
   "common": {
     "whatsapp": "WhatsApp",
